@@ -1,6 +1,6 @@
 .{
     .name = .serum,
-    .version = "0.1.1",
+    .version = "0.1.2",
     .fingerprint = 0x4296465bbbc3f9a7,
     .minimum_zig_version = "0.15.2",
     .paths = .{
