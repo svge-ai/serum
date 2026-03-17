@@ -1,0 +1,38 @@
+site_name: Serum
+site_description: A Zig configuration library ported from Go's viper
+repo_url: https://github.com/svge-ai/serum
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: orange
+  features:
+    - content.code.copy
+    - navigation.sections
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/install.md
+    - Quick Start: getting-started/quickstart.md
+  - Guide:
+    - Configuration Layers: guide/layers.md
+    - Config Files: guide/files.md
+    - Environment Variables: guide/env.md
+    - Using with Mamba: guide/mamba.md
+  - API Reference: api.md
+  - Viper Migration: viper-migration.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
